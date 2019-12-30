@@ -44,7 +44,11 @@ button.addEventListener("click", function () {
    } else {
        console.log("wrong");
    }
+   if(final!=null){
     window.alert(final);
+}else{
+    window.alert("Invalid Name Match Found!");
+}
 });
 
 
