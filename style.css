@@ -1,0 +1,33 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+@-ms-viewport {
+    width: device-width;
+}
+
+body{
+    background-image: url("wall.jpg");
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: yellow;
+}
+
+#text{
+    text-align: center;
+}
+
+#in1{
+height: 30px;
+}
+#in2 {
+    height: 30px;
+}
+#btn{
+    height: 30px;
+    background-color: lightgreen;
+    
+}
