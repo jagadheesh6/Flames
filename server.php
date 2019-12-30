@@ -16,9 +16,9 @@ if (isset($_POST['flame'])) {
     if (empty($fname)) { array_push($errors, "Name is required"); }
   if (empty($sname)) { array_push($errors, "Name is required"); }
   if (count($errors) == 0) {
-    $sql="INSERT INTO flame(fname,sname) VALUES ('$fname','$sname')";  
-    mysqli_query($db,$sql); 
+    $sql="INSERT INTO flame(fname,sname) VALUES ('$fname','$sname')";
+    mysqli_query($db,$sql);
   }
-}
+}  
 
 ?>
