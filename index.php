@@ -9,6 +9,7 @@
     <meta property="og:title" content="Flames">
     <meta property="og:url" content="officiallinks.ga">
     <meta property="og:image" content="heart.jpg">
+
    
     <title>Flames</title>
 </head>
@@ -36,6 +37,6 @@
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 </script>
-    
+
 </body>
 </html>
